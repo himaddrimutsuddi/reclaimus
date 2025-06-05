@@ -81,15 +81,21 @@ If you don't have Node.js installed, follow these steps:
    ```bash
    npm install ethers dotenv figlet chalk@4.1.2
 
-4. Open the .env file in notepad(if you're on Windows) or nano(if you're in linux) & change it with your real PRIVATE_KEY, RPC_URL, TOKEN_ADDRESS, and FORWARD_TO
+4. Open the .env file in notepad(if you're on Windows) or nano(if you're in linux)
    ```bash
    notepad .env
    ```
    or(For linux user)
    ```bash
    nano .env
+   ```
+   Change it with your real PRIVATE_KEY, RPC_URL, TOKEN_ADDRESS, and FORWARD_TO
+   PRIVATE_KEY = Your hacked wallet private key
+   RPC_URL = Go to [Metamask Developer](https://developer.metamask.io/)-Infura RPC-Copy Sepolia Websockets RPC(Not HTTPS)
+   TOKEN_ADDRESS = Token contract address
+   FORWARD_TO = Your recovery wallet address(Not private key)
 
-5. Run the script(After changing the details in notepadL)
+6. Run the script(After changing the details in notepad)
    ```bash
    node reclaimus.js
 
