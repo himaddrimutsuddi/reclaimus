@@ -79,11 +79,15 @@ If you don't have Node.js installed, follow these steps:
 
 3. Install Dependencies:
    ```bash
-   npm install ethers dotenv
+   npm install ethers dotenv figlet chalk@4.1.2
 
-4. Open the .env file in notepad & change it with your real PRIVATE_KEY, RPC_URL, TOKEN_ADDRESS, and FORWARD_TO
+4. Open the .env file in notepad(if you're on Windows) or nano(if you're in linux) & change it with your real PRIVATE_KEY, RPC_URL, TOKEN_ADDRESS, and FORWARD_TO
    ```bash
    notepad .env
+   ```
+   or(For linux user)
+   ```bash
+   nano .env
 
 5. Run the script(After changing the details in notepadL)
    ```bash
