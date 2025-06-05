@@ -72,19 +72,25 @@ If you don't have Node.js installed, follow these steps:
 1. Clone the repo:
    ```bash
    git clone https://github.com/himaddrimutsuddi/reclaimus.git
+
+2. Go to project directory
+   ```bash
    cd reclaimus/v1
 
-2. Install Dependencies:
+3. Install Dependencies:
    ```bash
    npm install ethers dotenv
 
-3. Open the .env file in notepad & change it with your real PRIVATE_KEY, RPC_URL, TOKEN_ADDRESS, and FORWARD_TO
+4. Open the .env file in notepad & change it with your real PRIVATE_KEY, RPC_URL, TOKEN_ADDRESS, and FORWARD_TO
+   ```bash
+   notepad .env
 
-4. Run the script
+5. Run the script(After changing the details in notepadL)
    ```bash
    node reclaimus.js
 
-🧠 Note: Make sure you double-check everything before using a private key. Never share it publicly.
+🧠 Note: Make sure you double-check everything before using a private key. Never share it publicly. You can use infura for RPC.
+❗IMPORTANT NOTE: Make sure you use Web Socket Endpoint RPC(wss), not HTTPS.
 
 ## 📌 Roadmap: 
 
@@ -99,5 +105,5 @@ Pull requests are welcome. If you find a bug or want to suggest a feature, feel 
 
 ## Contract
 Reach out on [GitHub](https://github.com/himaddrimutsuddi) for collaborations.
-X(Formerly Twitter): [Twitter](https://x.com/himaddriorka)
-Telegram: [Telegram](https://t.me/orkam2)
+[Twitter](https://x.com/himaddriorka)
+[Telegram](https://t.me/orkam2)
