@@ -1,4 +1,4 @@
-<img src="assets/reclaimus-logo.png" width="50%"/>
+<img src="assets/reclaimus-logo.png" width="20%"/>
 
 # Reclaimus
 
