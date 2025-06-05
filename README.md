@@ -1,3 +1,5 @@
+<img src="assets/reclaimus-logo.png" width="50%"/>
+
 # Reclaimus
 
 **Reclaimus** is a JavaScript-based tool designed to help users **recover airdrop tokens** from **hacked or compromised wallets**, by securely transferring eligible tokens to a new wallet address.
@@ -69,7 +71,7 @@ If you don't have Node.js installed, follow these steps:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/reclaimus.git
+   git clone https://github.com/himaddrimutsuddi/reclaimus.git
    cd reclaimus/v1
 
 2. Install Dependencies:
