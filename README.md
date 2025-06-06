@@ -99,7 +99,8 @@ If you don't have Node.js installed, follow these steps:
    ```bash
    node reclaimus.js
 
-🧠 Note: Make sure you double-check everything before using a private key. Never share it publicly. You can use infura for RPC.
+🧠 Note: Make sure you double-check everything before using a private key. Never share it publicly. Also Make sure you have enough GAS FEE for token transfers.
+
 ❗IMPORTANT NOTE: Make sure you use Web Socket Endpoint RPC(wss), not HTTPS.
 
 ## 📌 Roadmap: 
