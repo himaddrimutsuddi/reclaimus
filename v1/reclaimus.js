@@ -15,8 +15,7 @@ figlet('Reclaimus', function (err, data) {
 
   console.log(chalk.cyanBright(data)); // Fancy cyan ASCII banner
   console.log(chalk.blueBright('🔧 Built by Himaddri\n')); // Green subtitle
-  console.log('\n');
-
+  console.log(chalk.blueBright('🔧 X: https://x.com/himaddriorka\n'));
   // Load env variables
   const PRIVATE_KEY = process.env.PRIVATE_KEY;
   const RPC_URL = process.env.RPC_URL;
